@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+
+    <div class="navbar">
+        <div class="navbar-brand">Khyati</div>
+        <div class="navbar-items">
+            <a href="#">Home</a>
+            <a href="#" onclick="scrollToAboutMe()">About Me</a>
+            <a href="#">Contact Me</a>
+            <a href="#" onclick="scrollToMyProjects()">Projects</a>
+        </div>
+        <div class="navbar-icons">
+            <i class="fab fa-linkedin" onclick="window.open('YOUR_LINKEDIN_PROFILE', '_blank')"></i>
+            <i class="fab fa-instagram" onclick="window.open('YOUR_INSTAGRAM_PROFILE', '_blank')"></i>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="MyPic.jpeg" alt="Your Image" />
+        <div class="text-box">
+            <p>My Name is Khyati</p>
+        </div>
+        <div class="small-text-box">
+            <p>I am currently pursuing my Bachelors in Computer Sciences at University of Delhi.</p>
+        </div>
+    </div>
+
+    <div class="about-me-box"  id="about-me">
+        <h2>About Me</h2>
+        <p>I am a creative individual with a passion for expressing myself through various art forms. My hobbies include painting, photography, and engaging in strategic battles over a chessboard, reflecting my love for both visual aesthetics and intellectual challenges.</p>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="Phographs.jpeg" alt="Card 1">
+            <p class="PargraphText">I like Photography, I like capturing beauty of Nature</p>
+        </div>
+        <div class="card">
+            <img src="Chesimg.jpg" alt="Card 2">
+            <p class="PargraphText">I like Playing Chess, I have represented my College few times</p>
+        </div>
+        <div class="card" id="ThirdCard">
+            <img src="Piantings.jpg" alt="Card 3">
+            <p class="PargraphText">I like Canvas Painting.I express my imagination through painting.</p>
+        </div>
+    </div>
+
+    <div class="about-me-box"  id="my-Project Section">
+        <h2>My Projects</h2>
+        <p>So far I have done Two Projects Former was for Android Compose Camp, which won 2nd prize in the competion, while second project is done for Smart India Hackathon.</p>
+    </div>
+
+    <div class="full-width-cards">
+        <div class="card full-width-card">
+            <img src="Project1.png" alt="Card 4">
+            <p>It includes an onboarding screen from which clicking "Get Started" , takes you to the Home screen .
+                Home screen includes several buttons with food images categorized in Deserts and Chinese dishes and one dish suggested by us (on the top).
+                
+                Clicking on any of these opens a screen which shows you how to cook that particular dish via a video and some instructions and information about it below the video .
+                
+                <br><a  href="https://github.com/Khayti1102/CookBook/tree/master">Cook Book Repo</a> 
+                
+                </p>
+        </div>
+        <div class="card full-width-card" id="Project-2">
+            <img src="Project Two.png" alt="Card 5">
+            <p>Problem Statement Title: Online integrated platform for projects taken up by students of various universities /colleges.</p><br>
+            <a href="https://www.canva.com/design/DAFwewVZilE/wQa9D0LnxbgRcwZeBF1Jvg/edit?utm_content=DAFwewVZilE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Prototype ppt</a>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+
+    <!-- Your page content goes here -->
+
+</body>
+</html>
